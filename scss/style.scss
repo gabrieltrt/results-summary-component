@@ -158,6 +158,11 @@ main {
     span {
       opacity: 0.5;
     }
+
+    p {
+      color: #303B59;
+      font-weight: 700;
+    }
   }
 
   .reaction {
@@ -207,6 +212,9 @@ main {
     border-radius: 15px;
     padding: 1rem 7.8125rem;
     align-self: center;
+    &:hover {
+      background: linear-gradient(to bottom, rgb(119, 85, 255), rgb(47,44,233));
+    }
   }
 
  

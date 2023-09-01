@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -192,6 +191,10 @@ a {
 .summary span {
   opacity: 0.5;
 }
+.summary p {
+  color: #303B59;
+  font-weight: 700;
+}
 
 .reaction {
   background-color: rgba(255, 85, 85, 0.05);
@@ -241,4 +244,7 @@ a {
   border-radius: 15px;
   padding: 1rem 7.8125rem;
   align-self: center;
+}
+a:hover {
+  background: linear-gradient(to bottom, rgb(119, 85, 255), rgb(47, 44, 233));
 }/*# sourceMappingURL=style.css.map */
